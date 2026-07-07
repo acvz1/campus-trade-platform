@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "workspace_path": "/Users/zhengbenyi/Downloads/campus-trade-platform",
+  "settings": {
+    "checkin_frequency_hours": 24,
+    "reminder_style": "casual-checkin",
+    "reminder_proactivity": "proactive",
+    "auto_archive_completed_days": 30,
+    "default_priority": "medium",
+    "dashboard_port": 9090,
+    "dashboard_auto_start": true,
+    "dashboard_allow_network": false,
+    "enable_notifications": false
+  },
+  "preferences": {
+    "default_project": "inbox",
+    "task_id_format": "task-{counter:03d}",
+    "project_id_format": "{slug}"
+  }
+}

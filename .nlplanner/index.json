@@ -1,0 +1,576 @@
+{
+  "built_at": "2026-07-07T16:58:43.936676",
+  "tasks": {
+    "task-026": {
+      "id": "task-026",
+      "title": "【成员4】订单+收藏模块全栈",
+      "project": "校园闲置平台-2周mvp冲刺",
+      "status": "todo",
+      "priority": "high",
+      "created": "2026-07-07",
+      "due": "2026-07-15",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "成员4",
+        "全栈",
+        "订单模块",
+        "收藏模块"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置平台-2周mvp冲刺/tasks/task-026.md"
+    },
+    "task-022": {
+      "id": "task-022",
+      "title": "【组长】项目统筹：架构设计+代码审查+集成测试",
+      "project": "校园闲置平台-2周mvp冲刺",
+      "status": "todo",
+      "priority": "high",
+      "created": "2026-07-07",
+      "due": "2026-07-18",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "组长",
+        "统筹",
+        "架构"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置平台-2周mvp冲刺/tasks/task-022.md"
+    },
+    "task-023": {
+      "id": "task-023",
+      "title": "【成员1】后端基础架构：脚手架+DB+JWT+文件上传",
+      "project": "校园闲置平台-2周mvp冲刺",
+      "status": "todo",
+      "priority": "high",
+      "created": "2026-07-07",
+      "due": "2026-07-11",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "成员1",
+        "后端",
+        "基础架构"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置平台-2周mvp冲刺/tasks/task-023.md"
+    },
+    "task-027": {
+      "id": "task-027",
+      "title": "【成员5】前端基建+公共组件+私信模块",
+      "project": "校园闲置平台-2周mvp冲刺",
+      "status": "todo",
+      "priority": "high",
+      "created": "2026-07-07",
+      "due": "2026-07-15",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "成员5",
+        "全栈",
+        "前端基建",
+        "私信模块"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置平台-2周mvp冲刺/tasks/task-027.md"
+    },
+    "task-028": {
+      "id": "task-028",
+      "title": "【成员6】管理后台全栈（精简版）",
+      "project": "校园闲置平台-2周mvp冲刺",
+      "status": "todo",
+      "priority": "medium",
+      "created": "2026-07-07",
+      "due": "2026-07-15",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "成员6",
+        "全栈",
+        "管理后台"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置平台-2周mvp冲刺/tasks/task-028.md"
+    },
+    "task-029": {
+      "id": "task-029",
+      "title": "【全组】Day8-10 前后端联调+集成测试+Bug修复",
+      "project": "校园闲置平台-2周mvp冲刺",
+      "status": "todo",
+      "priority": "high",
+      "created": "2026-07-07",
+      "due": "2026-07-18",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "全组",
+        "联调",
+        "测试"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置平台-2周mvp冲刺/tasks/task-029.md"
+    },
+    "task-024": {
+      "id": "task-024",
+      "title": "【成员2】用户模块全栈：注册/登录/信息/地址",
+      "project": "校园闲置平台-2周mvp冲刺",
+      "status": "todo",
+      "priority": "high",
+      "created": "2026-07-07",
+      "due": "2026-07-15",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "成员2",
+        "全栈",
+        "用户模块"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置平台-2周mvp冲刺/tasks/task-024.md"
+    },
+    "task-025": {
+      "id": "task-025",
+      "title": "【成员3】商品+搜索模块全栈",
+      "project": "校园闲置平台-2周mvp冲刺",
+      "status": "todo",
+      "priority": "high",
+      "created": "2026-07-07",
+      "due": "2026-07-15",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "成员3",
+        "全栈",
+        "商品模块",
+        "搜索模块"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置平台-2周mvp冲刺/tasks/task-025.md"
+    },
+    "task-012": {
+      "id": "task-012",
+      "title": "【成员4】收藏模块后端与前端",
+      "project": "校园闲置物品智慧流转平台",
+      "status": "todo",
+      "priority": "medium",
+      "created": "2026-07-07",
+      "due": "2026-08-04",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "backend",
+        "frontend",
+        "favorite",
+        "member-4"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置物品智慧流转平台/tasks/task-012.md"
+    },
+    "task-002": {
+      "id": "task-002",
+      "title": "【成员1】数据库设计与初始化SQL",
+      "project": "校园闲置物品智慧流转平台",
+      "status": "todo",
+      "priority": "high",
+      "created": "2026-07-07",
+      "due": "2026-07-14",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "backend",
+        "database",
+        "member-1"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置物品智慧流转平台/tasks/task-002.md"
+    },
+    "task-016": {
+      "id": "task-016",
+      "title": "【成员6】管理模块后端（审核/黑名单/类目/数据看板）",
+      "project": "校园闲置物品智慧流转平台",
+      "status": "todo",
+      "priority": "high",
+      "created": "2026-07-07",
+      "due": "2026-08-04",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "backend",
+        "admin",
+        "member-6"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置物品智慧流转平台/tasks/task-016.md"
+    },
+    "task-006": {
+      "id": "task-006",
+      "title": "【成员2】用户端前端 — 登录/注册/个人中心/地址管理",
+      "project": "校园闲置物品智慧流转平台",
+      "status": "todo",
+      "priority": "high",
+      "created": "2026-07-07",
+      "due": "2026-07-21",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "frontend",
+        "user",
+        "auth",
+        "member-2"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置物品智慧流转平台/tasks/task-006.md"
+    },
+    "task-017": {
+      "id": "task-017",
+      "title": "【成员6】管理端前端 — 全部管理页面",
+      "project": "校园闲置物品智慧流转平台",
+      "status": "todo",
+      "priority": "high",
+      "created": "2026-07-07",
+      "due": "2026-08-11",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "frontend",
+        "admin",
+        "member-6"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置物品智慧流转平台/tasks/task-017.md"
+    },
+    "task-007": {
+      "id": "task-007",
+      "title": "【成员3】商品模块后端（发布/编辑/列表/详情/分类/上下架）",
+      "project": "校园闲置物品智慧流转平台",
+      "status": "todo",
+      "priority": "high",
+      "created": "2026-07-07",
+      "due": "2026-07-21",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "backend",
+        "product",
+        "member-3"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置物品智慧流转平台/tasks/task-007.md"
+    },
+    "task-013": {
+      "id": "task-013",
+      "title": "【成员5】私信模块后端（WebSocket聊天/会话/消息）",
+      "project": "校园闲置物品智慧流转平台",
+      "status": "todo",
+      "priority": "high",
+      "created": "2026-07-07",
+      "due": "2026-08-04",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "backend",
+        "chat",
+        "websocket",
+        "member-5"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置物品智慧流转平台/tasks/task-013.md"
+    },
+    "task-003": {
+      "id": "task-003",
+      "title": "【成员1】Spring Security + JWT安全框架集成",
+      "project": "校园闲置物品智慧流转平台",
+      "status": "todo",
+      "priority": "high",
+      "created": "2026-07-07",
+      "due": "2026-07-14",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "backend",
+        "security",
+        "member-1"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置物品智慧流转平台/tasks/task-003.md"
+    },
+    "task-018": {
+      "id": "task-018",
+      "title": "【成员6】求购模块后端与前端（Phase 2）",
+      "project": "校园闲置物品智慧流转平台",
+      "status": "todo",
+      "priority": "low",
+      "created": "2026-07-07",
+      "due": "2026-08-11",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "backend",
+        "frontend",
+        "wanted",
+        "member-6"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置物品智慧流转平台/tasks/task-018.md"
+    },
+    "task-008": {
+      "id": "task-008",
+      "title": "【成员3】商品端前端 — 首页/商品详情/发布商品/我的发布",
+      "project": "校园闲置物品智慧流转平台",
+      "status": "todo",
+      "priority": "high",
+      "created": "2026-07-07",
+      "due": "2026-07-28",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "frontend",
+        "product",
+        "member-3"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置物品智慧流转平台/tasks/task-008.md"
+    },
+    "task-019": {
+      "id": "task-019",
+      "title": "【全组】Nginx反向代理 + Docker Compose部署方案",
+      "project": "校园闲置物品智慧流转平台",
+      "status": "todo",
+      "priority": "high",
+      "created": "2026-07-07",
+      "due": "2026-08-11",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "devops",
+        "deployment",
+        "member-1"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置物品智慧流转平台/tasks/task-019.md"
+    },
+    "task-009": {
+      "id": "task-009",
+      "title": "【成员3】搜索模块后端与前端",
+      "project": "校园闲置物品智慧流转平台",
+      "status": "todo",
+      "priority": "medium",
+      "created": "2026-07-07",
+      "due": "2026-07-28",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "backend",
+        "frontend",
+        "search",
+        "member-3"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置物品智慧流转平台/tasks/task-009.md"
+    },
+    "task-020": {
+      "id": "task-020",
+      "title": "【全组】前后端联调与集成测试",
+      "project": "校园闲置物品智慧流转平台",
+      "status": "todo",
+      "priority": "high",
+      "created": "2026-07-07",
+      "due": "2026-08-18",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "integration",
+        "testing",
+        "all-members"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置物品智慧流转平台/tasks/task-020.md"
+    },
+    "task-014": {
+      "id": "task-014",
+      "title": "【成员5】私信模块前端 — 聊天页面/会话列表",
+      "project": "校园闲置物品智慧流转平台",
+      "status": "todo",
+      "priority": "high",
+      "created": "2026-07-07",
+      "due": "2026-08-04",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "frontend",
+        "chat",
+        "websocket",
+        "member-5"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置物品智慧流转平台/tasks/task-014.md"
+    },
+    "task-004": {
+      "id": "task-004",
+      "title": "【成员1】文件模块（图片上传/存储/缩略图）",
+      "project": "校园闲置物品智慧流转平台",
+      "status": "todo",
+      "priority": "high",
+      "created": "2026-07-07",
+      "due": "2026-07-21",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "backend",
+        "file",
+        "member-1"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置物品智慧流转平台/tasks/task-004.md"
+    },
+    "task-010": {
+      "id": "task-010",
+      "title": "【成员4】订单模块后端（下单/状态流转/订单查询）",
+      "project": "校园闲置物品智慧流转平台",
+      "status": "todo",
+      "priority": "high",
+      "created": "2026-07-07",
+      "due": "2026-07-28",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "backend",
+        "order",
+        "member-4"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置物品智慧流转平台/tasks/task-010.md"
+    },
+    "task-011": {
+      "id": "task-011",
+      "title": "【成员4】订单端前端 — 下单页/订单列表/订单详情",
+      "project": "校园闲置物品智慧流转平台",
+      "status": "todo",
+      "priority": "high",
+      "created": "2026-07-07",
+      "due": "2026-08-04",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "frontend",
+        "order",
+        "member-4"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置物品智慧流转平台/tasks/task-011.md"
+    },
+    "task-001": {
+      "id": "task-001",
+      "title": "【成员1】搭建项目脚手架与公共模块",
+      "project": "校园闲置物品智慧流转平台",
+      "status": "todo",
+      "priority": "high",
+      "created": "2026-07-07",
+      "due": "2026-07-14",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "backend",
+        "infrastructure",
+        "member-1"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置物品智慧流转平台/tasks/task-001.md"
+    },
+    "task-021": {
+      "id": "task-021",
+      "title": "【全组】功能测试 + 性能测试 + Bug修复",
+      "project": "校园闲置物品智慧流转平台",
+      "status": "todo",
+      "priority": "high",
+      "created": "2026-07-07",
+      "due": "2026-08-25",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "testing",
+        "qa",
+        "all-members"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置物品智慧流转平台/tasks/task-021.md"
+    },
+    "task-015": {
+      "id": "task-015",
+      "title": "【成员5】前端公共组件库与路由框架搭建",
+      "project": "校园闲置物品智慧流转平台",
+      "status": "todo",
+      "priority": "high",
+      "created": "2026-07-07",
+      "due": "2026-07-21",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "frontend",
+        "infrastructure",
+        "member-5"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置物品智慧流转平台/tasks/task-015.md"
+    },
+    "task-005": {
+      "id": "task-005",
+      "title": "【成员2】用户模块后端（注册/登录/认证/信息/地址）",
+      "project": "校园闲置物品智慧流转平台",
+      "status": "todo",
+      "priority": "high",
+      "created": "2026-07-07",
+      "due": "2026-07-14",
+      "last_checkin": "2026-07-07",
+      "tags": [
+        "backend",
+        "user",
+        "auth",
+        "member-2"
+      ],
+      "dependencies": [],
+      "progress": 0,
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置物品智慧流转平台/tasks/task-005.md"
+    }
+  },
+  "projects": {
+    "校园闲置平台-2周mvp冲刺": {
+      "id": "校园闲置平台-2周mvp冲刺",
+      "title": "校园闲置平台-2周MVP冲刺",
+      "created": "2026-07-07",
+      "status": "active",
+      "tags": [
+        "MVP",
+        "2-week-sprint",
+        "7-members"
+      ],
+      "color": "#38bdf8",
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置平台-2周mvp冲刺/README.md"
+    },
+    "inbox": {
+      "id": "inbox",
+      "title": "Inbox",
+      "created": "2026-07-07",
+      "status": "active",
+      "tags": [],
+      "color": "#84cc16",
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/inbox/README.md"
+    },
+    "校园闲置物品智慧流转平台": {
+      "id": "校园闲置物品智慧流转平台",
+      "title": "校园闲置物品智慧流转平台",
+      "created": "2026-07-07",
+      "status": "active",
+      "tags": [
+        "campus",
+        "trading",
+        "fullstack",
+        "Java",
+        "React"
+      ],
+      "color": "#ef4444",
+      "_path": "/Users/zhengbenyi/Downloads/campus-trade-platform/projects/校园闲置物品智慧流转平台/README.md"
+    }
+  }
+}
