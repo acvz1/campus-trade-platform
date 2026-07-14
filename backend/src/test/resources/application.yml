@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:campus_trade_test;MODE=PostgreSQL;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:schema-h2.sql
+
+app:
+  jwt:
+    secret: Y2FtcHVzLXRyYWRlLXRlc3Qtc2VjcmV0LWtleS1jaGFuZ2UtbWU=
+    expiration-millis: 3600000
+  file:
+    upload-dir: ${java.io.tmpdir}/campus-trade-test-uploads

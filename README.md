@@ -8,6 +8,7 @@
 campus-trade-platform/
 ├── backend/                # 后端 - Spring Boot + MyBatis-Plus + PostgreSQL
 ├── frontend/               # 前端 - React + Vite + TypeScript + Ant Design
+├── admin-app/              # 独立管理端 - React + Vite + Ant Design
 ├── docs/                   # 项目文档（开发规范、Git 协作规范）
 ├── .gitignore
 └── README.md
@@ -23,7 +24,7 @@ campus-trade-platform/
 | MyBatis-Plus 3.5 | ORM 框架 |
 | PostgreSQL | 关系型数据库 |
 | JWT (jjwt) | 登录鉴权 |
-| Knife4j 4.3 | API 接口文档 |
+| springdoc-openapi 3 | API 接口文档 |
 | Lombok | 简化实体类代码 |
 
 ### 前端
@@ -50,8 +51,9 @@ cd backend
 # 1. 创建数据库
 createdb campus_trade
 
-# 2. 修改数据库连接配置
-#    编辑 src/main/resources/application.yml，填入你的数据库密码
+# 2. 配置数据库连接（也可直接修改 application.yml）
+# Windows PowerShell: $env:DB_PASSWORD='你的数据库密码'
+# macOS/Linux: export DB_PASSWORD='你的数据库密码'
 
 # 3. 运行
 ./mvnw spring-boot:run
@@ -75,6 +77,18 @@ npm run dev
 
 启动成功后访问：http://localhost:5173/
 
+### 管理端
+
+```bash
+cd admin-app
+npm install
+npm run dev
+```
+
+启动成功后访问：http://localhost:5174/admin/login
+
+本地 MVP 初始化管理员：`13800000000` / `Admin@123`。生产部署前必须修改默认密码。
+
 ## 平台功能
 
 - 校园二手闲置物品发布
@@ -83,11 +97,17 @@ npm run dev
 - 求购信息发布
 - 用户私信
 - 个人中心
+- 商品审核与运营数据看板
 
 ## 项目文档
 
-- [前端开发规范](docs/DevRule.md)
-- [Git 团队协作规范](docs/GitGuide.md)
+- [产品需求](design_docs/PRD.md)
+- [技术设计](design_docs/TechnicalDesign.md)
+- [API 设计](design_docs/APIDesign.md)
+- [数据库设计](design_docs/Database.md)
+- [后端开发规范](design_docs/BackendDevelopmentGuide.md)
+- [前端开发规范](design_docs/DevRule.md)
+- [Git 团队协作规范](design_docs/GitGuide.md)
 
 ## 分支策略
 

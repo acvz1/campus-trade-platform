@@ -1,0 +1,39 @@
+* { box-sizing: border-box; }
+html, body, #root { min-width: 320px; min-height: 100%; margin: 0; }
+body { color: #17231f; background: #f4f6f4; font-family: Inter, "PingFang SC", sans-serif; }
+button, input, textarea { font: inherit; }
+.admin-shell { min-height: 100vh; }
+.admin-sider { background: #102f28 !important; }
+.admin-brand { display: flex; align-items: center; gap: 12px; height: 82px; padding: 0 22px; color: white; }
+.admin-brand > span { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 13px; color: #15372f; background: #d7e886; font: 800 24px serif; }
+.admin-brand strong, .admin-brand small { display: block; }
+.admin-brand small { margin-top: 3px; color: #93aaa3; font-size: 9px; letter-spacing: 1.5px; }
+.admin-header { display: flex; align-items: center; justify-content: space-between; padding: 0 28px !important; border-bottom: 1px solid #e1e6e3; background: white !important; }
+.admin-header > div { display: flex; align-items: center; gap: 14px; }
+.admin-content { padding: 28px; }
+.eyebrow { color: #177054; font-size: 10px; font-weight: 800; letter-spacing: 2px; }
+.page-title { display: flex; align-items: end; justify-content: space-between; margin-bottom: 20px; }
+.page-title h2 { margin: 4px 0 0 !important; }
+.page-title > span { color: #718079; }
+.stat-card { position: relative; overflow: hidden; border: 0; box-shadow: 0 8px 28px rgba(17, 53, 43, .06); }
+.stat-index { position: absolute; right: 14px; bottom: -12px; color: rgba(18, 102, 79, .07); font-size: 60px; font-weight: 900; }
+.today-card { margin-top: 22px; border: 0; box-shadow: 0 8px 28px rgba(17, 53, 43, .05); }
+.audit-product { display: flex; align-items: center; gap: 12px; }
+.audit-product img, .image-empty { width: 58px; height: 58px; border-radius: 9px; object-fit: cover; }
+.image-empty { display: grid; place-items: center; color: #8a9792; background: #edf1ee; font-size: 11px; }
+.audit-product > div { min-width: 0; }
+.audit-product strong, .audit-product span { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.audit-product span { max-width: 205px; margin-top: 5px; color: #7b8883; font-size: 12px; }
+.admin-login-page { display: grid; grid-template-columns: 1.15fr .85fr; min-height: 100vh; background: #0f342b; }
+.admin-login-copy { display: flex; flex-direction: column; justify-content: center; padding: 10vw; color: white; background: radial-gradient(circle at 25% 20%, #275b4d, transparent 40%), #0f342b; }
+.admin-login-mark { display: grid; place-items: center; width: 72px; height: 72px; border-radius: 24px; color: #163c31; background: #d8ea84; font: 800 40px serif; }
+.admin-login-copy h1 { margin: 38px 0 18px; font-size: clamp(42px, 5vw, 76px); line-height: 1.05; }
+.admin-login-copy p { color: #a9bcb5; letter-spacing: 3px; }
+.admin-login-card { align-self: center; width: min(440px, calc(100% - 48px)); margin: auto; padding: 44px; border-radius: 24px; background: white; box-shadow: 0 32px 80px rgba(0, 0, 0, .22); }
+@media (max-width: 800px) {
+  .admin-login-page { grid-template-columns: 1fr; }
+  .admin-login-copy { display: none; }
+  .admin-sider { display: none; }
+  .admin-content { padding: 18px 12px; }
+  .admin-header { padding: 0 14px !important; }
+}

@@ -1,6 +1,6 @@
 package com.campus.trade.controller;
 
-import com.campus.trade.common.Result;
+import com.campus.trade.common.result.Result;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

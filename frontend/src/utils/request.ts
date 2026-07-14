@@ -1,24 +1,42 @@
-import axios from 'axios'
+import axios, { type AxiosRequestConfig } from 'axios'
 
-// 创建请求实例
-const request = axios.create({
-  baseURL: 'http://后端给你的接口地址',
-  timeout: 10000
+interface ApiResponse<T> {
+  code: number
+  message: string
+  data: T
+  timestamp: number
+}
+
+const client = axios.create({
+  baseURL: import.meta.env.VITE_API_BASE_URL ?? '/api',
+  timeout: 10000,
 })
 
-// 请求拦截：统一携带登录token
-request.interceptors.request.use(config => {
+client.interceptors.request.use((config) => {
   const token = localStorage.getItem('token')
-  if(token) config.headers.Authorization = token
+  if (token) {
+    config.headers.Authorization = `Bearer ${token}`
+  }
   return config
 })
 
-// 响应拦截：简化返回数据
-request.interceptors.response.use(res => {
-  return res.data
-}, err => {
-  alert('接口请求失败')
-  return Promise.reject(err)
-})
+client.interceptors.response.use(
+  (response) => response,
+  (error) => {
+    const message = error.response?.data?.message ?? error.message ?? '网络请求失败'
+    if (error.response?.status === 401 && !['/login', '/register'].includes(window.location.pathname)) {
+      localStorage.removeItem('token')
+      localStorage.removeItem('user')
+      window.location.assign('/login')
+    }
+    return Promise.reject(new Error(message))
+  },
+)
 
-export default request
+export async function request<T>(config: AxiosRequestConfig): Promise<T> {
+  const response = await client.request<ApiResponse<T>>(config)
+  if (response.data.code !== 200) {
+    throw new Error(response.data.message || '请求失败')
+  }
+  return response.data.data
+}

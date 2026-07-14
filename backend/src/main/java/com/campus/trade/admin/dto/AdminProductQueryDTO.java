@@ -1,0 +1,19 @@
+package com.campus.trade.admin.dto;
+
+import jakarta.validation.constraints.Max;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.Positive;
+import lombok.Data;
+
+@Data
+public class AdminProductQueryDTO {
+    private String status = "PENDING_REVIEW";
+    private String keyword;
+    @Positive(message = "类目ID无效")
+    private Long categoryId;
+    @Min(value = 1, message = "页码必须大于0")
+    private long page = 1;
+    @Min(value = 1, message = "每页条数必须大于0")
+    @Max(value = 100, message = "每页最多100条")
+    private long size = 20;
+}
